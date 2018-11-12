@@ -60,6 +60,7 @@ end
 def runner
   # code runner here
   welcome
+  sleep 1
   card_total = initial_round
   hit?(card_total)
   display_card_total(card_total)
